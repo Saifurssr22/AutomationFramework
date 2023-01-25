@@ -2,24 +2,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="RegressionSuite"/>
-        <include name="SmokeSuite"/>
-      </run>
-    </groups>
     <classes>
-      <class name="vTiger.Organizations.TestScripts.CreateOrgWithIndustryPOMTest">
+      <class name="vTiger.Contacts.TestScripts.CreateContactWithOrganizationPOMTest">
         <methods>
           <include name="asConfig"/>
           <include name="bsConfig"/>
           <include name="bmConfig"/>
+          <include name="CreateContactWithOrgTest"/>
           <include name="amConfig"/>
           <include name="bcConfig"/>
-          <include name="CreateOrgaWithIndustryPOMTest"/>
           <include name="acConfig"/>
         </methods>
-      </class> <!-- vTiger.Organizations.TestScripts.CreateOrgWithIndustryPOMTest -->
+      </class> <!-- vTiger.Contacts.TestScripts.CreateContactWithOrganizationPOMTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
