@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-25T16:07:19 IST" name="Suite" finished-at="2023-01-25T16:07:19 IST" duration-ms="74">
+  <suite started-at="2023-02-01T11:22:25 IST" name="Default suite" finished-at="2023-02-01T11:22:26 IST" duration-ms="1221">
     <groups>
     </groups>
-    <test started-at="2023-01-25T16:07:19 IST" name="Test" finished-at="2023-01-25T16:07:19 IST" duration-ms="74">
-      <class name="vTiger.Practice.ReadDataFromCmdLineTest">
-        <test-method signature="readData()[pri:0, instance:vTiger.Practice.ReadDataFromCmdLineTest@498d318c]" started-at="2023-01-25T16:07:19 IST" name="readData" finished-at="2023-01-25T16:07:19 IST" duration-ms="12" status="PASS">
+    <test started-at="2023-02-01T11:22:25 IST" name="Default test" finished-at="2023-02-01T11:22:26 IST" duration-ms="1221">
+      <class name="vTiger.Practice.SampleJDBCExecuteQuery">
+        <test-method signature="sampleJDBC()[pri:0, instance:vTiger.Practice.SampleJDBCExecuteQuery@123ef382]" started-at="2023-02-01T11:22:25 IST" name="sampleJDBC" finished-at="2023-02-01T11:22:26 IST" duration-ms="1176" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readData -->
-      </class> <!-- vTiger.Practice.ReadDataFromCmdLineTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- sampleJDBC -->
+      </class> <!-- vTiger.Practice.SampleJDBCExecuteQuery -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
